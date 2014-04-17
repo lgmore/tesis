@@ -1,0 +1,15 @@
+﻿Build started 12/04/2014 17:49:25.
+     1>Project "C:\Users\lmore\Dropbox\tesis\implementacion\tesis\CLAHEVS\CLAHEVS\CLAHEVS.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\lmore\Dropbox\tesis\implementacion\tesis\CLAHEVS\packages\cpprestsdk.2.0.1\build\native\../../build/native/include/ /IC:\opencv\build\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D HAS_CPPRESTSDK /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\CLAHEVS.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CLAHEVS.cpp
+         CLAHEVS.cpp
+     1>c:\users\lmore\dropbox\tesis\implementacion\tesis\clahevs\clahevs\clahevs.cpp(88): warning C4715: 'JsonValueTypeToString' : not all control paths return a value
+       Link:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\lmore\Dropbox\tesis\implementacion\tesis\CLAHEVS\Debug\CLAHEVS.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\Microsoft SDKs\Windows\v7.1A\Lib" /LIBPATH:C:\opencv\build\x86\vc12\lib C:\Users\lmore\Dropbox\tesis\implementacion\tesis\CLAHEVS\packages\cpprestsdk.2.0.1\build\native\../../build/native/lib/Win32/v120/Debug/Desktop/cpprest120d_2_0.lib opencv_calib3d248d.lib opencv_contrib248d.lib opencv_core248d.lib opencv_features2d248d.lib opencv_flann248d.lib opencv_gpu248d.lib opencv_highgui248d.lib opencv_imgproc248d.lib opencv_legacy248d.lib opencv_ml248d.lib opencv_nonfree248d.lib opencv_objdetect248d.lib opencv_ocl248d.lib opencv_photo248d.lib opencv_stitching248d.lib opencv_superres248d.lib opencv_ts248d.lib opencv_video248d.lib opencv_videostab248d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\lmore\Dropbox\tesis\implementacion\tesis\CLAHEVS\Debug\CLAHEVS.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\lmore\Dropbox\tesis\implementacion\tesis\CLAHEVS\Debug\CLAHEVS.lib" /MACHINE:X86 Debug\CLAHEVS.obj
+         Debug\stdafx.obj
+         CLAHEVS.vcxproj -> C:\Users\lmore\Dropbox\tesis\implementacion\tesis\CLAHEVS\Debug\CLAHEVS.exe
+     1>Done Building Project "C:\Users\lmore\Dropbox\tesis\implementacion\tesis\CLAHEVS\CLAHEVS\CLAHEVS.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.44
